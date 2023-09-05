@@ -1,0 +1,150 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(191, 185, 185);
+    padding:10px 0 10px;
+}
+
+.form{
+    background-color: white;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(55, 54, 54);
+    padding: 20px;
+}
+.form_content {
+    display: flex;    
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.form h1{
+    text-align: center;
+}
+.submit{
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    margin-left: 45%;
+    background-color: blue;
+    color: wheat;
+    border-radius: 7px;
+}
+
+.submit:active{
+    background-color: wheat;
+    color: black;
+}
+
+.submit:hover{
+    cursor:pointer;
+}
+
+.add_btn:hover{
+    cursor:pointer;
+}
+
+.resume {
+    background-color: gray;
+    padding-bottom:20px ;
+    display: none;
+}
+
+.form_data{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px ;
+    width: 80%;
+}
+
+.form_data input,textarea{
+    margin-top: 5px;    
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.gender{
+    margin-top: 20px;
+}
+.add_btn{
+    width: 3rem;
+    height: 1.3rem;
+    margin: 0 auto;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+
+}
+.add_btn:active{
+    background-color: wheat;
+    color: black;
+}
+
+.container{
+    background-color: white;
+    max-width:600px;
+    min-height: 90vh;
+    margin: 0 auto;
+    position: relative ;
+    top: 20px;
+    padding: 20px;
+}
+
+.head{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin:38px 0  0 10%;
+}
+
+.h{
+    font-size: small;
+}
+.head_content{
+    margin-bottom: 10px;
+}
+
+.experience{
+    margin: 10px;
+    padding-left: 60px;
+}
+
+.personal_info{
+    margin-top: 20px;
+    background-color: lightblue;
+    width: 40%;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(10, 18, 21) ;
+}
+
+.professional_info{
+    margin-top: 20px;
+    background-color: lightblue;
+    width: 40%;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(10, 18, 21) ;
+}

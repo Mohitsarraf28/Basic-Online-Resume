@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>Fill form to generate resume</h1>
+        <div class="form_content">
+            <div class="personal_info">
+                <div class="form_data">
+                    <label for="f_name">First name</label>
+                    <input type="text" name="f_name" id="f_name">
+                    <label for="l_name">Last name</label>
+                    <input type="text" name="l_name" id="l_name">
+                </div>
+                <div class="form_data">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="number">Contact number</label>
+                    <input type="number" name="number" id="number">
+                </div>
+                <div class="form_data">
+                    <label for="twitter">Twitter</label>
+                    <input type="text" name="twittter" id="twitter">
+                    <label for="linkedin">Linked-In</label>
+                    <input type="text" name="linkedin" id="linkedin">
+                </div>
+                <div class="form_data">
+                    <label for="education">Education</label>
+                    <textarea name="education" id="education" cols="30" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="professional_info">
+
+                <div class="form_data pro">
+                    <p>Project</p>
+                    <input type="text" name="p_title" id="p_title" placeholder="Project Title">
+                    <textarea name="project" id="project" cols="30" rows="5"
+                        placeholder="Project Description"></textarea>
+                    <button class="add_btn p_btn">ADD</button>
+                </div>
+                <div class="form_data exp1">
+                    <label for="experience">Experience</label>
+                    <input type="text" name="e_title" id="e_title" placeholder="Tittle">
+                    <textarea name="experience" placeholder="About" id="e_body" cols="30" rows="5"></textarea>
+                    <button class="add_btn ex_btn">ADD</button>
+                </div>
+                <div class="form_data skk">
+                    <label for="skills">Skills</label>
+                    <input type="text" name="skills" id="skills">
+                    <button class="add_btn sk_btn">ADD</button>
+                </div>
+            </div>
+        </div>
+        <button class="submit">submit</button>
+    </div>
+    <div class="resume">
+        <div class="container">
+            <div class="head">
+                <div class="left">
+                    <h1 id="name">John Smith</h1>
+                    <div class="head_content">
+                        <b>Phone</b>
+                        <span class="phone h"> 993637451</span>
+                    </div>
+                    <div class="head_content">
+                        <b>Email</b>
+                        <span class="email h">9709507487mohitraj@hmail.com</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="head_content">
+                        <b>Linkedin</b>
+                        <span class="linkedin h">hbdfvskuyssuyjhg</span>
+                    </div>
+                    <div class="head_content">
+                        <b>twitter</b>
+                        <span class="twitter h">hbdfvskuyssuyjhg</span>
+                    </div>
+                </div>
+            </div>
+            <div class="experience_container">
+                <h3>Experience</h3>
+                <hr>
+                <div class="experience exp">
+                    <h4 class="exp_head">Senior Project Manager</h4>
+                    <p class="exp_des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nobis adipisci quisquam
+                        aliquam sequi ducimus vero recusandae, deleniti perferendis maiores debitis dicta ad animi
+                        nostrum iste accusantium. Voluptates, distinctio! Expedita.</p>
+                </div>
+            </div>
+            <div class="Education_container">
+                <h3>Education</h3>
+                <hr>
+                <div class="experience">
+                    <h4 class="education">BCA from LN Mishra College</h4>
+                </div>
+            </div>
+            <div class="project_container">
+                <h3>Project</h3>
+                <hr>
+                <div class="experience Project">
+                    <h4 class="p_head">Simon sage game</h4>
+                    <p class="p_des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nobis adipisci
+                        quisquam
+                        aliquam sequi ducimus vero recusandae, deleniti perferendis maiores debitis dicta ad animi
+                        nostrum iste accusantium. Voluptates, distinctio! Expedita.</p>
+                </div>
+            </div>
+            <div class="skills_container">
+                <h3>Skills</h3>
+                <hr>
+                <div class="experience">
+                    <ul class="skill_list">
+                        <li class="first">CSS</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
